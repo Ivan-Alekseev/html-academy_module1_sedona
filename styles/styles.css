@@ -302,6 +302,7 @@ body {
   height: 485px;
   width: auto;
   background-image: url("../images/background/promo.jpg");
+  background-color: var(--color-special-cold-light);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   position: relative;
