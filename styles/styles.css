@@ -162,6 +162,21 @@ body {
   position: absolute;
   z-index: 1;
 }
+.header-logo:hover {
+  opacity: 0.6;
+}
+
+.header-logo:focus {
+  outline: 3px solid var(--color-special-cold-light);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.header-logo:active {
+  opacity: 0.3;
+  outline: transparent;
+}
+
 
 .navigation {
   display: flex;
@@ -1396,8 +1411,23 @@ img.product-card-image {
   margin: 0;
   width: 100%;
   word-wrap: break-word;
+}
+.product-card-title-link {
+  text-decoration: none;
   grid-column: 1 / -1;
   grid-row: 2;
+}
+
+.product-card-title-link:hover {
+  opacity: 0.6;
+}
+
+.product-card-title-link:focus {
+  outline: 3px solid var(--color-special-cold-light);
+}
+
+.product-card-title-link:focus-visible {
+  outline-offset: 0;
 }
 
 .product-card-type {
